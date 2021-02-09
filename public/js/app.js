@@ -26,7 +26,7 @@ var app = {
         app.elements.footer.appendChild(app.elements.gamePanel);
         app.elements.restartBt.style.display = 'none';
         app.elements.infoTitle.textContent = 'RULES';
-        app.elements.infoArticle.innerHTML = 'FEAR THE WALKING DEAD <br><br> Press arrow touche to escape from walking dead and join your safe mine.<br>After each victory difficulty increase<br><br>[Arrow Left] moove left<br>[Arrow Up] moove Up<br>[Arrow Right] moove Right<br>[Arrow Down] moove Down';
+        app.elements.infoArticle.innerHTML = 'FEAR THE WALKING DEAD <br><br> Press arrow touche to escape from walking dead and join your safe mine.<br>After each victory difficulty increase<br><br>[Arrow Left] move left<br>[Arrow Up] move Up<br>[Arrow Right] move Right<br>[Arrow Down] move Down';
 
 
         app.game.gameMusic.setAttribute('loop', 'true');
